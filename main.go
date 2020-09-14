@@ -20,13 +20,13 @@ func main() {
 	if err := config.Init(*cfg); err != nil {
 		panic(err)
 	}
-	// Set gin mode.
+	// 设置gin运行模式.
 	gin.SetMode(viper.GetString("server.runmode"))
 
 	db := common.InitDB()
 	defer db.Close()
 	r := gin.Default()
 	r = CollectRoute(r)
-	panic(r.Run()) // listen and serve on 0.0.0.0:8080
+	panic(r.Run())
 }
 
