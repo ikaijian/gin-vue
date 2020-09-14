@@ -1,6 +1,6 @@
 server:
   runmode: test                 #开发模式, debug, release, test
-  port: 8080                    #HTTP绑定端口
+  addr: :8080                    #HTTP绑定端口
   url: http://127.0.0.1:8080    #请求的API服务器的ip:port
   max_ping_count: 10            #尝试的次数
 db:

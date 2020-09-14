@@ -1,10 +1,16 @@
 package main
 
 import (
+	"log"
+	"net/http"
+	"time"
+	"errors"
+
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/kaijian/gin-vue/config"
 	"github.com/kaijian/gin-vue/model"
+	"github.com/kaijian/gin-vue/routes"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
 )
@@ -25,8 +31,40 @@ func main() {
 	//数据库初始化
 	model.DB.Init()
 	defer model.DB.Close()//延迟关闭
-	r := gin.Default()
-	r = CollectRoute(r)
-	panic(r.Run())
+
+	g := gin.New()
+	middlewares := []gin.HandlerFunc{}
+	routes.Load(
+		g,
+		middlewares...
+	)
+
+	go func() {
+		if err := pingServer(); err != nil {
+			log.Fatal("The router has no response, or it might took too long to start up.", err)
+		}
+		log.Print("The router has been deployed successfully.")
+	}()
+
+	log.Printf("Start to listening the incoming requests on http address: %s", viper.GetString("addr"))
+	log.Printf(http.ListenAndServe(viper.GetString("server.addr"), g).Error())
+	//r := gin.Default()
+	//r = CollectRoute(r)
+	//panic(r.Run())
+}
+
+func pingServer() error {
+	for i := 0; i < viper.GetInt("server.max_ping_count"); i++ {
+		// Ping the server by sending a GET request to `/health`.
+		resp, err := http.Get(viper.GetString("server.url") + "/sd/health")
+		if err == nil && resp.StatusCode == 200 {
+			return nil
+		}
+
+		// Sleep for a second to continue the next ping.
+		log.Print("Waiting for the router, retry in 1 second.")
+		time.Sleep(time.Second)
+	}
+	return errors.New("Cannot connect to the router.")
 }
 

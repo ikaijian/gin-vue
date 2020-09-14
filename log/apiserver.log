@@ -2,3 +2,4 @@
 {"level":"INFO","timestamp":"2020-09-14 21:10:00.355","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
 {"level":"INFO","timestamp":"2020-09-14 21:11:51.968","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
 {"level":"INFO","timestamp":"2020-09-14 21:32:08.493","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-09-15 00:34:59.004","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
