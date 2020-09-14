@@ -3,11 +3,17 @@ server:
   port: 8080                    #HTTP绑定端口
   url: http://127.0.0.1:8080    #请求的API服务器的ip:port
   max_ping_count: 10            #尝试的次数
-datasource:
+db:
   driverName: mysql             #数据库类型
-  host: 127.0.0.1               #地址
-  port: 3306                    #端口
-  database: ginessential        #数据库
+  addr: 127.0.0.1:3306          #地址
+  name: db_apiserver            #数据库
+  username: root                #用户名
+  password: root                #密码
+  charset: utf8                 #字符集
+docker_db:
+  driverName: mysql             #数据库类型
+  addr: 127.0.0.1:3306          #地址
+  name: db_apiserver            #数据库
   username: root                #用户名
   password: root                #密码
   charset: utf8                 #字符集

@@ -10,13 +10,13 @@ import (
 var DB *gorm.DB
 
 func InitDB() *gorm.DB {
-	driverName := viper.GetString("datasource.driverName")
-	host := viper.GetString("datasource.host")
-	port := viper.GetString("datasource.port")
-	database := viper.GetString("datasource.database")
-	username := viper.GetString("datasource.username")
-	password := viper.GetString("datasource.password")
-	chartset := viper.GetString("datasource.charset")
+	driverName := viper.GetString("db.driverName")
+	host := viper.GetString("db.host")
+	port := viper.GetString("db.port")
+	database := viper.GetString("db.name")
+	username := viper.GetString("db.username")
+	password := viper.GetString("db.password")
+	chartset := viper.GetString("db.charset")
 	args := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=%s&parseTime=true",
 		username, password, host, port, database, chartset)
 
