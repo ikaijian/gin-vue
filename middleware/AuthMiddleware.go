@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/kaijian/gin-vue/common"
+	"github.com/kaijian/gin-vue/handler"
 	"github.com/kaijian/gin-vue/model"
 	"net/http"
 	"strings"
@@ -21,7 +21,7 @@ func AuthMiddleware() gin.HandlerFunc {
 		}
 
 		tokenString = tokenString[7:]
-		token, claims, err := common.ParseToken(tokenString)
+		token, claims, err := handler.ParseToken(tokenString)
 		if err != nil || !token.Valid {
 			c.JSON(http.StatusUnauthorized, gin.H{"code": 401, "msg": "权限不足"})
 			c.Abort()
@@ -30,7 +30,7 @@ func AuthMiddleware() gin.HandlerFunc {
 
 		//验证通过后获取claim中的userId
 		userId := claims.UserId
-		DB := common.GetDB()
+		DB := handler.GetDB()
 		var user model.User
 		DB.First(&user, userId)
 

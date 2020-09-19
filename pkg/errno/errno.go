@@ -17,7 +17,7 @@ type Err struct {
 	Err     error
 }
 
-//新建定制的错误
+//定制的错误
 func New(errno *Errno, err error) *Err {
 	return &Err{Code: errno.Code, Message: errno.Message, Err: err}
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	"github.com/lexkong/log"
 	"net/http"
 	"time"
 	"errors"
@@ -34,20 +34,18 @@ func main() {
 
 	g := gin.New()
 	middlewares := []gin.HandlerFunc{}
-	routes.Load(
-		g,
-		middlewares...
-	)
+	//路由
+	routes.Load(g, middlewares...)
 
 	go func() {
 		if err := pingServer(); err != nil {
-			log.Fatal("The router has no response, or it might took too long to start up.", err)
+			log.Infof("The router has no response, or it might took too long to start up.", err)
 		}
-		log.Print("The router has been deployed successfully.")
+		log.Info("The router has been deployed successfully.")
 	}()
 
-	log.Printf("Start to listening the incoming requests on http address: %s", viper.GetString("addr"))
-	log.Printf(http.ListenAndServe(viper.GetString("server.addr"), g).Error())
+	log.Infof("Start to listening the incoming requests on http address: %s", viper.GetString("server.addr"))
+	log.Info(http.ListenAndServe(viper.GetString("server.addr"), g).Error())
 	//r := gin.Default()
 	//r = CollectRoute(r)
 	//panic(r.Run())
@@ -62,7 +60,7 @@ func pingServer() error {
 		}
 
 		// Sleep for a second to continue the next ping.
-		log.Print("Waiting for the router, retry in 1 second.")
+		log.Info("Waiting for the router, retry in 1 second.")
 		time.Sleep(time.Second)
 	}
 	return errors.New("Cannot connect to the router.")

@@ -3,7 +3,7 @@ package controller
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
-	"github.com/kaijian/gin-vue/common"
+	"github.com/kaijian/gin-vue/handler"
 	"github.com/kaijian/gin-vue/dto"
 	"github.com/kaijian/gin-vue/model"
 	"github.com/kaijian/gin-vue/response"
@@ -14,7 +14,7 @@ import (
 )
 
 func Register(c *gin.Context) {
-	DB := common.GetDB()
+	DB := handler.GetDB()
 	//获取参数
 	name := c.PostForm("name")
 	telephone := c.PostForm("telephone")
@@ -58,7 +58,7 @@ func Register(c *gin.Context) {
 }
 
 func Login(c *gin.Context)  {
-	DB := common.GetDB()
+	DB := handler.GetDB()
 	//获取参数
 	telephone := c.PostForm("telephone")
 	password := c.PostForm("password")
@@ -86,7 +86,7 @@ func Login(c *gin.Context)  {
 		return
 	}
 	//发放token
-	token,err := common.ReleaseToken(user)
+	token,err := handler.ReleaseToken(user)
 	if err != nil {
 		response.Response(c,http.StatusInternalServerError,500,nil,"系统异常")
 		log.Printf("token generate error:%v",err)

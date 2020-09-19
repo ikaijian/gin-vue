@@ -3,3 +3,72 @@
 {"level":"INFO","timestamp":"2020-09-14 21:11:51.968","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
 {"level":"INFO","timestamp":"2020-09-14 21:32:08.493","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
 {"level":"INFO","timestamp":"2020-09-15 00:34:59.004","file":"config/config.go:61","msg":"Config file changed: /Users/kaijianchen/go/src/github.com/kaijian/gin-vue/conf/config.yaml"}
+{"level":"INFO","timestamp":"2020-09-15 21:06:51.091","file":"gin-vue/main.go:49","msg":"Start to listening the incoming requests on http address: "}
+{"level":"INFO","timestamp":"2020-09-15 21:06:51.092","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:52.096","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:53.096","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:54.102","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:55.104","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:56.106","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:57.109","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:58.112","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:06:59.114","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:07:00.118","file":"gin-vue/main.go:65","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2020-09-15 21:07:01.123","file":"gin-vue/main.go:44","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 14 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc000423f80, 0xc00038a8a0, 0x2, 0x2, 0x4, 0x487b38f, 0x42, 0x497a740, 0xc0003844a0, 0x0, ...)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:135 +0x8fe\ngithub.com/lexkong/log/lager.(*logger).log(0xc000423f80, 0x4, 0x487b38f, 0x42, 0x497a740, 0xc0003844a0, 0x0, 0x0, 0x0)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc000423f80, 0x487b38f, 0x42, 0x497a740, 0xc0003844a0, 0x0, 0x0, 0x0)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/st_lager.go:162\nmain.main.func1()\n\t/Users/kaijianchen/go/src/github.com/kaijian/gin-vue/main.go:44 +0xc5\ncreated by main.main\n\t/Users/kaijianchen/go/src/github.com/kaijian/gin-vue/main.go:42 +0x1a4\n"}}
+{"level":"INFO","timestamp":"2020-09-15 21:24:56.909","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: "}
+{"level":"INFO","timestamp":"2020-09-15 21:24:56.909","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:24:57.913","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:24:58.915","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:24:59.918","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:25:00.919","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:25:01.920","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:25:02.923","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:25:03.928","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:25:04.932","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:25:05.934","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2020-09-15 21:25:06.938","file":"gin-vue/main.go:42","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 23 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc000423f80, 0xc000510b20, 0x2, 0x2, 0x4, 0x487b38f, 0x42, 0x497a740, 0xc000516720, 0x0, ...)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:135 +0x8fe\ngithub.com/lexkong/log/lager.(*logger).log(0xc000423f80, 0x4, 0x487b38f, 0x42, 0x497a740, 0xc000516720, 0x0, 0x0, 0x0)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:123 +0xd9\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc000423f80, 0x487b38f, 0x42, 0x497a740, 0xc000516720, 0x0, 0x0, 0x0)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:197 +0x83\ngithub.com/lexkong/log.Fatal(...)\n\t/Users/kaijianchen/go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/st_lager.go:162\nmain.main.func1()\n\t/Users/kaijianchen/go/src/github.com/kaijian/gin-vue/main.go:42 +0xc5\ncreated by main.main\n\t/Users/kaijianchen/go/src/github.com/kaijian/gin-vue/main.go:40 +0x1a4\n"}}
+{"level":"INFO","timestamp":"2020-09-15 21:27:41.688","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: "}
+{"level":"INFO","timestamp":"2020-09-15 21:27:41.688","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:42.693","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:43.693","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:44.699","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:45.700","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:46.701","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:47.706","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:48.707","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:49.709","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:50.714","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 21:27:51.717","file":"gin-vue/main.go:42","msg":"The router has no response, or it might took too long to start up.%!(EXTRA *errors.errorString=Cannot connect to the router.)"}
+{"level":"INFO","timestamp":"2020-09-15 21:27:51.717","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:40.355","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: "}
+{"level":"INFO","timestamp":"2020-09-15 23:32:40.356","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:41.359","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:42.359","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:43.365","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:44.371","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:45.371","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:46.375","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:47.381","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:48.386","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:49.386","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-15 23:32:50.387","file":"gin-vue/main.go:42","msg":"The router has no response, or it might took too long to start up.%!(EXTRA *errors.errorString=Cannot connect to the router.)"}
+{"level":"INFO","timestamp":"2020-09-15 23:32:50.387","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-15 23:45:19.796","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-15 23:45:19.797","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"DEBUG","timestamp":"2020-09-15 23:46:44.517","file":"user/create.go:23","msg":"username is: [admin], password is []"}
+{"level":"DEBUG","timestamp":"2020-09-15 23:47:08.877","file":"user/create.go:23","msg":"username is: [], password is [admin]"}
+{"level":"ERROR","timestamp":"2020-09-15 23:47:08.878","file":"user/create.go:26","msg":"Get an error","data":{"error":"Err - code:20102,message:The user was not found This is add message.,error:username can not found in db: xx.xx.xx.xx"}}
+{"level":"DEBUG","timestamp":"2020-09-15 23:47:08.878","file":"user/create.go:30","msg":"err type is ErrUserNotFound"}
+{"level":"DEBUG","timestamp":"2020-09-15 23:47:49.612","file":"user/create.go:23","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2020-09-16 00:23:11.823","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-16 00:23:11.824","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-16 00:23:27.587","file":"user/create.go:19","msg":"URL username:admin2"}
+{"level":"INFO","timestamp":"2020-09-16 00:23:27.587","file":"user/create.go:22","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2020-09-16 00:23:27.587","file":"user/create.go:25","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2020-09-16 00:23:27.587","file":"user/create.go:28","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2020-09-19 23:27:45.182","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-19 23:27:45.283","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:19","msg":"URL username:admin2"}
+{"level":"INFO","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:22","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:25","msg":"Header Content-Type: application/json"}
+{"level":"DEBUG","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:28","msg":"username is: [admin], password is [admin]"}

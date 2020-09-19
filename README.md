@@ -9,10 +9,12 @@ gin-gorm-vue基于gin实现一种MVC开发模式的架构，已经实现jwt登�
 - 数据库初始化：支持对多个数据库进行初始化和连接管理
 - 自定义业务错误信息
 - 统一处理响应格式
+- 处理读取和返回HTTP请求
 - cors处理
 - vue 的项目搭建
 - vue 的路由中间件
 - vuex 的使用
+会不断更新
 
 # 推荐的包 
 - 日志包 [lexkong/log](https://github.com/lexkong/log)
