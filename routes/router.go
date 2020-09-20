@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/kaijian/gin-vue/controller/sd"
+	"github.com/kaijian/gin-vue/controller/test"
 	"github.com/kaijian/gin-vue/controller/user"
 	"github.com/kaijian/gin-vue/middleware"
 	"net/http"
@@ -31,12 +31,12 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 		u.GET("/:username",user.Get) //指定用户详情
 	}
 
-	svcd :=g.Group("/sd")
+	svcd :=g.Group("/test")
 	{
-		svcd.GET("/health",sd.HealthCheck)
-		svcd.GET("/disk",sd.DiskCheck)
-		svcd.GET("/cpu",sd.CPUCheck)
-		svcd.GET("/ram",sd.RAMCheck)
+		svcd.GET("/health", test.HealthCheck)
+		svcd.GET("/disk", test.DiskCheck)
+		svcd.GET("/cpu", test.CPUCheck)
+		svcd.GET("/ram", test.RAMCheck)
 	}
 
 	return g
