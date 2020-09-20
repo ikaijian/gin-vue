@@ -1,5 +1,5 @@
 # gin-vue
-gin-gorm-vue基于gin实现一种MVC开发模式的架构，已经实现jwt登陆,Viper监控配置文件改动，并热加载配置文件
+gin-gorm-vue基于gin实现一种MVC开发模式的架构，搭建一套中小型API.已经实现jwt登陆,Viper监控配置文件改动，并热加载配置文件
 
 # 学习到知识
 - gin 框架的使用,渐进式的项目优化 gin 项目 MVC

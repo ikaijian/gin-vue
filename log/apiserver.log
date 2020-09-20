@@ -72,3 +72,60 @@
 {"level":"INFO","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:22","msg":"URL key param desc: test"}
 {"level":"INFO","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:25","msg":"Header Content-Type: application/json"}
 {"level":"DEBUG","timestamp":"2020-09-19 23:28:20.296","file":"user/create.go:28","msg":"username is: [admin], password is [admin]"}
+{"level":"INFO","timestamp":"2020-09-20 14:06:45.874","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 14:06:45.874","file":"gin-vue/main.go:63","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2020-09-20 14:06:46.880","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 15:40:01.669","file":"user/create.go:14","msg":"user create function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2020-09-20 15:47:55.626","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 15:47:55.628","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 15:51:14.753","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 15:51:14.754","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 15:57:11.162","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 15:57:11.163","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:00:00.570","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:00:00.571","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:00:46.333","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:00:46.335","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:02:14.099","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:02:14.100","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:03:32.125","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:03:32.126","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:07:09.423","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:07:09.424","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:19:19.221","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:19:19.222","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:20:01.910","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:20:01.911","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:24:11.595","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:24:11.596","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:29:43.806","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:29:43.807","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:32:36.353","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:32:36.354","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:34:22.532","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:34:22.533","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:35:10.884","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:35:10.887","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:35:35.471","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:35:35.473","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:38:39.491","file":"user/update.go:15","msg":"update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2020-09-20 16:40:18.720","file":"user/update.go:15","msg":"update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2020-09-20 16:43:20.473","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:43:20.474","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:43:22.327","file":"user/update.go:15","msg":"update function called.","data":{"X-Request-Id":""}}
+{"level":"INFO","timestamp":"2020-09-20 16:45:35.840","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:45:35.841","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:51:04.856","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:51:04.857","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:51:50.335","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:51:50.336","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 16:52:50.078","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 16:52:50.078","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 17:04:30.075","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 17:04:30.075","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 17:13:11.132","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 17:13:11.133","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 17:16:27.115","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 17:16:27.116","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-09-20 17:17:18.635","file":"gin-vue/main.go:47","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2020-09-20 17:17:18.637","file":"gin-vue/main.go:44","msg":"The router has been deployed successfully."}

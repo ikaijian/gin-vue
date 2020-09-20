@@ -13,11 +13,11 @@ type Claims struct {
 	jwt.StandardClaims
 }
 
-func ReleaseToken(user model.User) (string, error) {
+func ReleaseToken(user model.UserModel) (string, error) {
 	//过期时间
 	expirationTime := time.Now().Add(7 * 27 * time.Hour).Unix()
 	claims := &Claims{
-		UserId: user.ID,
+		UserId: user.Id,
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: expirationTime,
 			//发放时间
